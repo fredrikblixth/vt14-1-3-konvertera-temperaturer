@@ -60,12 +60,39 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\foundation.css" />
+    <Content Include="css\foundation.min.css" />
+    <Content Include="css\normalize.css" />
+    <Content Include="css\style.css" />
     <Content Include="Default.aspx" />
+    <Content Include="error.html" />
     <Content Include="Global.asax" />
     <Content Include="packages.config" />
+    <Content Include="img\.gitkeep" />
     <None Include="Scripts\jquery-2.1.0.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.0.js" />
     <Content Include="Scripts\jquery-2.1.0.min.js" />
+    <Content Include="Scripts\js\foundation.min.js" />
+    <Content Include="Scripts\js\foundation\foundation.abide.js" />
+    <Content Include="Scripts\js\foundation\foundation.accordion.js" />
+    <Content Include="Scripts\js\foundation\foundation.alert.js" />
+    <Content Include="Scripts\js\foundation\foundation.clearing.js" />
+    <Content Include="Scripts\js\foundation\foundation.dropdown.js" />
+    <Content Include="Scripts\js\foundation\foundation.interchange.js" />
+    <Content Include="Scripts\js\foundation\foundation.joyride.js" />
+    <Content Include="Scripts\js\foundation\foundation.js" />
+    <Content Include="Scripts\js\foundation\foundation.magellan.js" />
+    <Content Include="Scripts\js\foundation\foundation.offcanvas.js" />
+    <Content Include="Scripts\js\foundation\foundation.orbit.js" />
+    <Content Include="Scripts\js\foundation\foundation.reveal.js" />
+    <Content Include="Scripts\js\foundation\foundation.tab.js" />
+    <Content Include="Scripts\js\foundation\foundation.tooltip.js" />
+    <Content Include="Scripts\js\foundation\foundation.topbar.js" />
+    <Content Include="Scripts\js\vendor\fastclick.js" />
+    <Content Include="Scripts\js\vendor\jquery.cookie.js" />
+    <Content Include="Scripts\js\vendor\jquery.js" />
+    <Content Include="Scripts\js\vendor\modernizr.js" />
+    <Content Include="Scripts\js\vendor\placeholder.js" />
     <Content Include="Web.config" />
     <Content Include="Scripts\jquery-2.1.0.min.map" />
   </ItemGroup>
@@ -80,6 +107,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Model\TemperatureConverter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -90,6 +118,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
